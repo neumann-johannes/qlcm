@@ -1,5 +1,8 @@
-# qlcm
-## Quick Least Common Multiple
+## QLCM - Quick Least Common Multiple
+
+Author: Johannes Neumann
+
+QLCM is a small app for calculating the least common multiple of two integers, made with Python Flask. 
 
 #### Installed Packages:
 * pip install flask
