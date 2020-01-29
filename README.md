@@ -1,28 +1,31 @@
 # qlcm
 Quick Least Common Multiple
 
-Setup:
->Virtual Env (App Root):
->python3 -m venv venv
->venv\Scripts\activate (Windows)
-
 Installed Packages:
 >Flask:
->>pip install flask
->>pip install config
+>pip install flask
+>pip install config
+>pip install python-dotenv
+>pip install flask-wtf
+>pip install numpy
+>pip install flask-bootstrap
 
->Environment Variables:
->>pip install python-dotenv
+Working environment:
+>Python 3.7.6
+>Created Virtual Environment:
+>>python3 -m venv venv
+>>venv\Scripts\activate (Windows)
 
->WebForms:
->>pip install flask-wtf
+Design decisions:
+>Flask:
+>>Lightweight
+>>Built-in develoment server
+>>Templating Engine & WTForms Support
+>>Good Documentation
 
->Numpy:
->>pip install numpy
+>Bootstrap:
+>>Good base css infrastructure
 
->CSS:
->>pip install flask-bootstrap
-
->>
-Backend:
+>numpy 
+>>(obvious)
 jQuery + Ajax obvious besser, aber Zeitrahmen
