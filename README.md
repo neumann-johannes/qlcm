@@ -2,8 +2,8 @@
 Quick Least Common Multiple
 
 Installed Packages:
->pip install flask
->pip install config
+>pip install flask;
+>pip install config;
 >pip install python-dotenv
 >pip install numpy
 >pip install flask-wtf
