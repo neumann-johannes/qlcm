@@ -29,10 +29,12 @@ QLCM is a small app for calculating the least common multiple of two integers, m
 
 ##### Bootstrap:
 * Good base css infrastructure
+* Brings jQuery with it
 * Quickly able to make app scalable to different screen sizes and resolutions
 
 #### Visual Design:
-* aimed for clear cut simplicity. Showing off colorful javascript magic with dynamically appearing things didn't seem like the way to go with the given timeframe
+* I aimed for clear cut simplicity, with minimal clicks and user assistance through field validation
+* I intentionally kept the Javascript on a low level, to not inhibit the lightness of the app
 
 #### What was omitted
-* jQuery + Ajax would obviously be a more elegant solution for getting the calculation result, but didn't fit into timeframe
+* Ajax would obviously be a more elegant solution for getting the calculation result, but that was not the focus of the exercise
