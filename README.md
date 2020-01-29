@@ -17,11 +17,11 @@
 
 #### Design decisions:
 * Flask:
-** Lightweight
-** Built-in develoment server
-** Templating Engine 
-** WTForms Support (QuickForms are very helpful for a prototype)
-** Good Documentation
+ * Lightweight
+ * Built-in develoment server
+ * Templating Engine 
+ * WTForms Support (QuickForms are very helpful for a prototype)
+ * Good Documentation
 
 ##### Bootstrap:
 * Good base css infrastructure
