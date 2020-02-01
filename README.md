@@ -35,7 +35,7 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
 
 #### Visual Design:
 * I aimed for clear cut simplicity, with minimal clicks and user assistance through field validation 
-    * *widget=html5.NumberInput()*, since IntegerField unintuitively doesn't do that
+    * forms.py => *widget=html5.NumberInput()*, since *IntegerField* unintuitively doesn't do that
 
 ### Possible next steps:
 * Obviously this is just a foundation. With a bigger focus on shinyness and more time I'd have:
