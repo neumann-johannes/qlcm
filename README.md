@@ -12,11 +12,11 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
    * $ source venv/bin/activate *OR* venv\Scripts\activate on Windows
    * (venv) $ pip install -r requirements.txt
    * (venv) $ flask run
-   * The app will run on localhost (127.0.0.1.:5000)
+   * The app will run on localhost (127.0.0.1:5000)
 
 ### Working environment:
 * Python 3.7.6
-* jQuery 3.4.1 https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+* jQuery 3.4.1 (web sourced from https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js)
   * Should maybe be static for corporate app => internet independency
 
 ### Design decisions:
@@ -26,7 +26,7 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
  * Built-in develoment server
  * Templating Engine 
  * WTForms Support (QuickForms are very helpful for a prototype)
- * Good Documentation
+ * Good Tutorials & Documentation
 
 ##### Bootstrap:
 * Good base css infrastructure
