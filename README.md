@@ -31,7 +31,6 @@ https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 
 ##### Bootstrap:
 * Good base css infrastructure
-* Brings jQuery with it
 * Quickly able to make app scalable to different screen sizes and resolutions
 
 ### Visual Design:
