@@ -38,9 +38,9 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
     * added *widget=html5.NumberInput()* in forms.py, since wtform validators don't catch everything
 
 ### Possible next steps:
-* Obviously this is just a foundation. With a bigger focus on shinyness and more time I'd have:
-  * Maybe implemented "Calculate as you type" => get rid of submit button and get a Javascript on *("keyup",function(...){})* for dynamic user experience (has to be weighed up agains more traffic/server load)
+* Obviously this is just a foundation. With a larger time scope i'd 
+  * Maybe implemented "Calculate as you type" => get rid of submit button and get a Javascript "on-keyup-function" for dynamic user experience (has to be weighed up against more traffic/server load)
   * Thought about comfort function like copying result to clipboard for further processing (depending on typical user workflow)
-  * Got some corporate colors in there (Our corporate brand portal is a good guideline for front end design)
-* The base structure of the app is clean and allows for a good deal of expansion, thanks to templates and the basic file structure, although this is a very tiny seed to grow an application from...
+  * Accentuated with some corporate colors in there (Our company brand portal is a good guideline for visual design)
+* The base structure of the app is relatively clean and allows for a good deal of expansion, thanks to templates. Although this is a very tiny seed to grow an application from...
 * Alternatively it's not hard to transfer the app to another Flask application, which should only take a couple of adjustments
