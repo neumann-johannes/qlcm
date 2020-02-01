@@ -28,14 +28,14 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
  * WTForms Support (QuickForms are very helpful for a prototype)
  * Good Tutorials & Documentation
 
-##### Bootstrap:
+#### Bootstrap:
 * Good base css infrastructure
 * Quickly able to make app scalable to different screens and resolutions (or a small browser window)
   * Note: Seems to bring jQuery 1.12 along with it, but the ajax didn't work with that.
 
-### Visual Design:
+#### Visual Design:
 * I aimed for clear cut simplicity, with minimal clicks and user assistance through field validation 
- * *widget=html5.NumberInput()*, since IntegerField unintuitively doenst do that)
+ * *widget=html5.NumberInput()*, since IntegerField unintuitively doesn't do that)
 
 ### Possible next steps:
 * Obviously this is just a foundation. With a bigger focus on shinyness and more time I'd have:
