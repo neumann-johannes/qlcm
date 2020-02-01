@@ -4,21 +4,18 @@ Author: Johannes Neumann
 
 QLCM is a small app for calculating the least common multiple of two integers, made with Python Flask and some Javascript. 
 
-### Installed Packages:
-* pip install flask
-* pip install config
-* pip install python-dotenv
-* pip install numpy
-* pip install flask-wtf
-* pip install flask-bootstrap
-### Web sourced:
-https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+### Setup Instructions:
+
+There is a **requirements.txt** with all installed packages. Push the requirements.txt file to anywhere you want to deploy the code, and create a virtual environment:
+
+  $ virtualenv venv
+  $ source venv/bin/activate OR venv\Scripts\activate on Windows
+  (venv)$ pip install -r path/to/requirements.txt
 
 ### Working environment:
 * Python 3.7.6
-* Created Virtual Environment:
-  * python3 -m venv venv
-  * venv\Scripts\activate (Windows)
+* jQuery 3.4.1 https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+  * Should be static for corporate app => internet independency
 
 ### Design decisions:
 
@@ -32,6 +29,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 ##### Bootstrap:
 * Good base css infrastructure
 * Quickly able to make app scalable to different screen sizes and resolutions
+  * Note: Seems to bring jQuery 1.12 along with it, but the ajax didn't work with that.
 
 ### Visual Design:
 * I aimed for clear cut simplicity, with minimal clicks and user assistance through field validation 
