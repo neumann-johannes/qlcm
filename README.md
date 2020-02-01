@@ -6,11 +6,13 @@ QLCM is a small app for calculating the least common multiple of two integers, m
 
 ### Setup Instructions:
 
-There is a **requirements.txt** with all installed packages. Push the requirements.txt file to anywhere you want to deploy the code, and create a virtual environment:
+There is a **requirements.txt** with all installed packages. Leave it in the main folder, and create a virtual environment:
 
-   * $ virtualenv venv
-   * $ source venv/bin/activate OR venv\Scripts\activate on Windows
-   * (venv) $ pip install -r path/to/requirements.txt
+   * $ virtualenv venv *OR* python3 -m venv venv
+   * $ source venv/bin/activate *OR* venv\Scripts\activate on Windows
+   * (venv) $ pip install -r requirements.txt
+   * (venv) $ flask run
+   * The app will run on localhost (127.0.0.1.:5000)
 
 ### Working environment:
 * Python 3.7.6
