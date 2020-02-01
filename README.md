@@ -34,8 +34,8 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
   * Note: Seems to bring jQuery 1.12 along with it, but the ajax didn't work with that.
 
 #### Visual Design:
-* I aimed for clear cut simplicity, with minimal clicks and user assistance through field validation 
-    * forms.py => *widget=html5.NumberInput()*, since *IntegerField* unintuitively doesn't do that
+* I aimed for clear cut simplicity, with minimal clicks and user assistance through input validation 
+    * added *widget=html5.NumberInput()* in forms.py, since wtform validators don't catch everything
 
 ### Possible next steps:
 * Obviously this is just a foundation. With a bigger focus on shinyness and more time I'd have:
