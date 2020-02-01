@@ -2,7 +2,7 @@
 
 Author: Johannes Neumann
 
-QLCM is a small app for calculating the least common multiple of two integers, made with Python Flask and some Javascript. 
+QLCM is a small app for calculating the least common multiple of two integers, made with Python Flask and Javascript. 
 
 ### Setup Instructions:
 
