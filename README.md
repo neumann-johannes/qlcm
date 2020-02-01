@@ -8,9 +8,9 @@ QLCM is a small app for calculating the least common multiple of two integers, m
 
 There is a **requirements.txt** with all installed packages. Push the requirements.txt file to anywhere you want to deploy the code, and create a virtual environment:
 
-  $ virtualenv venv
-  $ source venv/bin/activate OR venv\Scripts\activate on Windows
-  (venv)$ pip install -r path/to/requirements.txt
+   * $ virtualenv venv
+   * $ source venv/bin/activate OR venv\Scripts\activate on Windows
+   * (venv) $ pip install -r path/to/requirements.txt
 
 ### Working environment:
 * Python 3.7.6
