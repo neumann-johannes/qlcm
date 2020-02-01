@@ -15,7 +15,7 @@ There is a **requirements.txt** with all installed packages. Push the requiremen
 ### Working environment:
 * Python 3.7.6
 * jQuery 3.4.1 https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
-  * Should be static for corporate app => internet independency
+  * Should maybe be static for corporate app => internet independency
 
 ### Design decisions:
 
