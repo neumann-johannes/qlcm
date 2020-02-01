@@ -2,7 +2,7 @@
 
 Author: Johannes Neumann
 
-QLCM is a small app for calculating the least common multiple of two integers, made with Python Flask. 
+QLCM is a small app for calculating the least common multiple of two integers, made with Python Flask and some Javascript. 
 
 ### Installed Packages:
 * pip install flask
@@ -11,6 +11,8 @@ QLCM is a small app for calculating the least common multiple of two integers, m
 * pip install numpy
 * pip install flask-wtf
 * pip install flask-bootstrap
+### Web sourced:
+https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 
 ### Working environment:
 * Python 3.7.6
@@ -36,10 +38,9 @@ QLCM is a small app for calculating the least common multiple of two integers, m
 * I aimed for clear cut simplicity, with minimal clicks and user assistance through field validation
 * I intentionally kept the Javascript on a low level, to not inhibit the lightness of the app
 
-### What was omitted?
-* Ajax would obviously be a more elegant solution for getting the calculation result, but that was not the focus of the exercise
-* I intentionally did not go overboard with Javascript. Firstly it did not fit the proposed time frame. Secondly, I think it's not a good principle to blow up and clutter an app without really adding to it's user friendliness. 
-
 ### Possible next steps:
+* Obviously this is just a foundation. With a bigger focus on shinyness and more time I'd have:
+ * Maybe implemented "Calculate as you type" => get rid of submit button and get a Javascript on *("keyup",function(...){})* for user experience (has to be weighed up agains more traffic)
+ * Got some corporate colors in there (RR brand portal gives us the guidelines)
 * The base structure of the app is clean and allows for a good deal of expansion, thanks to templates and the basic file structure, although this is a very tiny seed to grow an application from...
 * Alternatively it's not hard to transfer the app to another Flask application, which should only take a couple of adjustments
