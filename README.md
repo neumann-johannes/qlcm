@@ -32,6 +32,9 @@ There is a **requirements.txt** with all installed packages. Leave it in the mai
 * Good base css infrastructure
 * Quickly able to make app scalable to different screens and resolutions (or a small browser window)
   * Note: Seems to bring jQuery 1.12 along with it, but the ajax didn't work with that.
+  
+#### AJAX:
+* Although a POST-to-self-model would have been quicker and less complex to set up this is the elegant way.
 
 #### Visual Design:
 * I aimed for clear cut simplicity, with minimal clicks and user assistance through input validation 
